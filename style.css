@@ -1,0 +1,92 @@
+/* إعدادات أساسية */
+body {
+    direction: rtl;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0; /* خلفية وردية فاتحة */
+    margin: 0;
+    padding: 0;
+    color: black; /* لون الخط أسود */
+}
+
+/* الحاوية الرئيسية */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* العناوين */
+h2 {
+    text-align: center;
+    color: #d63384; /* وردي غامق */
+}
+
+/* تنسيق النموذج */
+form {
+    margin-bottom: 30px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: black; /* نص داخل الحقول */
+}
+
+/* زر الإرسال - لون رمادي */
+button {
+    background-color: #808080; /* رمادي */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #666666; /* رمادي أغمق عند المرور */
+}
+
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #d63384; /* وردي غامق */
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: black; /* نص الجدول أسود */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fceef5;
+}
+
+/* رابط كلمة تبديل - أسود */
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
